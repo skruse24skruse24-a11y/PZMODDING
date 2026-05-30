@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "ilka.umbrella-vscode",
+        "simkdt.project-zomboid-scripts",
+        "asledgehammer.zedscript-vscode",
+        "redhat.java",
+        "vscjava.vscode-java-dependency"
+    ]
+}

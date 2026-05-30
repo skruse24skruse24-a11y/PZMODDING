@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "PZ Java: Compile File",
+            "type": "shell",
+            "command": "javac",
+            "args": [
+                "-cp",
+                "${input:pzGameFiles}\\projectzomboid.jar",
+                "${file}"
+            ],
+            "problemMatcher": [
+                "$javac"
+            ],
+            "group": "build"
+        }
+    ],
+    "inputs": [
+        {
+            "id": "pzGameFiles",
+            "description": "Absolute path to Project Zomboid game files folder (contains projectzomboid.jar)",
+            "default": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\ProjectZomboid",
+            "type": "promptString"
+        }
+    ]
+}

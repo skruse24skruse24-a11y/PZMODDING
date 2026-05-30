@@ -1,0 +1,6 @@
+version=1
+title=My First PZ Mod
+description=Build 42 Project Zomboid mod scaffold.
+tags=Build 42
+tags=Mod
+visibility=0
