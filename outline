@@ -1,0 +1,39 @@
+Project Zomboid mod outline
+
+Title: Undead Evolution Project
+Project goals: 
+1. Create a timeline of zombie evolution, starting nearly vanilla and dynamically becoming more evolved and dangerous
+2. Add new zombie types that interact with the environment in new ways
+3. Be compatible / suggested for use with the [B42] Bandits NPC mod along with [B42] Week One NPC
+4. Be broadly compatible with most other mods and multiplayer
+
+Main Features: 
+
+Glowing zombies: 
+The precursor to Zombie nests, they attract up to 20 zombies into a swarm around them, then look for a proper building1 to enter and begin creating a zombie nest. Their body becomes the Nest Heart and their swarm is absorbed to create it
+Nest Heart: 
+The engine of the entire Evolutionary process. They attract basic zombies, absorbing them as biomass once they are inside the nest. As the nest grows, the radius of basic zombie attraction grows. The nest grows by converting floor, wall, and door tiles into Nest tiles, destroying any objects on the new nest tiles and absorbing the loot.
+Nest Biomass:
+each basic zombie that enters a nest navigates to the heart and starts the process of being absorbed. This takes a configurable amount of time, but around 2-6 hours. This gives the heart a configurable amount of biomass over time during the process. The heart uses this biomass to expand and create Nest Structures. 
+Nest Structures:
+Storage cells: when a zombie with loot on it is absorbed, or when the nest expands onto a tile with storage and destroys it, the loot and building materials are absorbed into the Nest and stored in either the Nest Heart or a Storage cell.
+Zombie Pod: a structure that takes biomass and creates zombie blanks, the rank and file of the zombie nest. 
+Zombie Pod II: a structure that takes biomass and resources to create more advanced zombies.
+Zombie Pod III: a structure that takes biomass and resources to create the most dangerous zombies. 
+Deconstructor: takes items like clothing and appliances and breaks them down into their components to be used for defense and zombie creation.
+Zombie Armorer: creates and stores armor and weapons. uses materials to create weapons and armor for use by zombies. Zombies will take weapons and armor straight from the building. 
+Zombie Cattle Ranch: A structure that uses biomass to create zombie cattle. They venture out into the world, eating organic resources and converting them into biomass after returning to the Nest Heart. 
+Nest Walls, Doors & floors: replace normal versions of tiles with Nest versions. Very small rooms have their doors deconstructed and very narrow rooms have the walls they share with the rest of the nest deconstructed. Nest doors can be opened by zombies
+Hardened Walls & Doors: walls and doors that are exposed to the outdoors slowly become hardened 
+New Zombies:
+Zombie Blank: a weak zombie, created to mimic humans, but with less bones, muscles, and organs. They are slow and weak
+Sentries: Created at the Pod II, they are slow moving zombies that appear like the Blanks, but with a large toothless mouth. They wander the area around the Nest, and alert the Nest loudly if they see organic life. 
+zombie cattle: Quadraped Zombie that grazes on organic tiles, and then return to the Nest and drop off their biomass at the Ranch. They travel in herds and attract a few zombies as shepherds to follow them. 
+Slicers: A Pod II zombie that is fast and has blades instead of arms. 
+Tanks: a Pod II zombie that is slow, but tall and strong. They attack with weapons that they leave the pod with, either found weapons or created wooden or metal clubs. 
+Scavengers: a Pod II zombie that carries a created large sack or found backpack on its back. It specifically looks for materials that the Nest is short on and returns to the nest when full. 
+Mites:  Pod II. small four legged zombies that swarm enemies, trying to bite their legs and drag them down. They can jump at enemies to attack higher.
+Exploding Mites: Pod III zombie that is created using an electronic battery and wiring. They jump at enemies, starting a timer and becoming immobile before exploding.
+Glowing Progenator: a zombie very similar to the glowing mass zombie, but created at the Pod III. it leaves the Nest with guards, looking for other suitable places to make an outpost nest. 
+Transport zombies: a quadruped zombie that carries four backpacks or created large sacks. They transport resources from Outposts to the main Nest, and vice versa. As they travel, the ground that they walk on slowly become “ Transport trail” Tiles, which zombies travel faster on. 
+Zombie Hunter: a strong and fast Pod III zombie that search the map for threats to attack. They do not attack at first contact, fleeing to gather a swarm at a Nest or outpost, and then returning to where the threat was. 

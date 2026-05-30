@@ -51,3 +51,27 @@ javac -cp "GameFiles\projectzomboid.jar" "path\file.java"
 ## Important
 
 Agent instruction files are configured to force API verification against PZwiki and JavaDocs before adding Project Zomboid API calls.
+
+## Rough prototype status
+
+The shared Lua prototype loop is now implemented for:
+
+1. Glowing initiator selection (first observed zombie in update loop).
+2. Swarm collection (up to configured cap).
+3. Initiator conversion to Nest Heart after configured ticks.
+4. Timed zombie absorption into biomass.
+5. Heart stage progression based on biomass.
+6. Abstract nest expansion (cell count growth from biomass spend).
+7. Structure unlock/build milestones (Storage Cell, Pod I, Deconstructor).
+
+### Debug helpers (Lua console)
+
+The bootstrap exposes a debug table:
+
+```lua
+MyFirstPZModDebug.getSnapshot()
+MyFirstPZModDebug.addBiomass(50)
+MyFirstPZModDebug.reset()
+```
+
+Use `getSnapshot()` repeatedly to confirm the prototype lifecycle is advancing.
